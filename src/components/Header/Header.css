@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  padding: 15px;
+  border: 2px solid;
+  background-color: var(--secondary-backgroud-color);
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.header__link svg,
+.switch-theme svg  {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.header__link svg:focus,
+.header__link svg:hover,
+.switch-theme svg:focus,
+.switch-theme svg:hover {
+  transform: scale(1.3);
+  outline: none;
+}
+
+.header__link svg:active,
+.switch-theme svg:active {
+  transform: scale(0.9);
+}
+
+.switch-theme {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+}

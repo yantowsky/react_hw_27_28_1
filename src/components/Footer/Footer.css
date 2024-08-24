@@ -1,0 +1,15 @@
+.footer {
+  margin: 15px 0;
+  padding: 15px 0;
+  border: 2px solid;
+  background-color: var(--secondary-backgroud-color);
+}
+
+.total-todos {
+  font-size: 1.5rem;
+}
+
+.year-todos {
+  margin-top: 10px;
+  font-size: 1.2rem;
+}

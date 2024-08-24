@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap");
+
+body {
+  height: 100vh;
+  background-color: var(--primary-backgroud-color);
+  color: var(--text-color);
+}
+
+path {
+  color: var(--icon-color);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  padding: 2px;
+  border: 2px solid;
+  background-color: var(--secondary-backgroud-color);
+}
+
+main div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  border: 2px solid;
+  font-weight: 700;
+  background-color: var(--primary-backgroud-color);
+  gap: 10px;
+  padding: 15px 30px;
+}
+
+main img {
+  width: 250px;
+}
+
+main h1 {
+  font-size: 2rem;
+}
+main h2 {
+  font-size: 1.5em;
+}
+
+main p {
+  text-align: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+  text-indent: 1rem;
+}
+
+main div ul {
+  display: flex;
+  gap: 30px;
+}
+
+main div ul li {
+  width: 60px;
+  font-size: 2.5rem;
+}
+
+main div ul li:hover {
+  transform: scale(1.2);
+}
+
+main div ul li:active {
+  transform: scale(0.9);
+}
+
+#root {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  max-width: 1280px;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
