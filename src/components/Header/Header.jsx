@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import { FaHome, FaInfoCircle, FaSun, FaMoon } from "react-icons/fa";
 import { MdContacts } from "react-icons/md";
-import { useTheme } from '../../hooks/UseTheme';
+import { useTheme } from '../../hooks/use-theme';
 import './Header.css';
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
     const { theme, setTheme } = useTheme();
 
     const title = `Switch ${theme === 'dark' ? 'Light' : 'Dark'} Theme`;
-    
+
     const handleSwitchTheme = () => {
         theme === 'dark' ? setTheme('light') : setTheme('dark');
     }
